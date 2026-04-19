@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISD Lab | Ticketing System</title>
+    <meta name="description" content="Submit and track support tickets for ISD Lab. Our streamlined ticketing system ensures your technical issues are resolved efficiently.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-container">
+        <img src="bg.png" alt="Background" class="bg-image">
+        <div class="overlay"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo-wrapper">
+                <img src="logo.png" alt="ISD Lab Logo" class="nav-logo">
+                <span class="logo-text">ISD LAB</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Resources</a>
+                <a href="#">Documentation</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Support & Ticketing</h1>
+            <p>Welcome to the ISD Lab support portal. Please fill out the form below to submit a technical request or report an issue.</p>
+        </section>
+
+        <main class="ticket-wrapper">
+            <div class="iframe-container" id="ticket-form">
+                <!-- ClickUp Embed -->
+                <iframe class="clickup-embed clickup-dynamic-height" 
+                        src="https://forms.clickup.com/90161487081/p/f/2kz0p779-6016/G0WOTT8LXGU583PTQC/ticket-submission-form" 
+                        onwheel="" 
+                        width="100%" 
+                        scrolling="no"
+                        style="background: transparent;">
+                </iframe>
+                <script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-line"></div>
+            <p>&copy; 2026 <a href="https://isdlabsrm.in/" target="_blank" class="footer-link">ISD Lab</a>. All rights reserved.</p>
+            <div class="footer-contact">
+                <p><a href="mailto:isdlab@srmist.edu.in" class="footer-sublink">isdlab@srmist.edu.in</a></p>
+                <p><a href="https://isdlabsrm.in/" target="_blank" class="footer-sublink">isdlabsrm.in</a></p>
+            </div>
+            <p style="margin-top: 1rem; opacity: 0.6;">Powered by ISD Innovation Team</p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple analytics or interaction tracking can go here
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('ISD Lab Ticketing Portal Loaded');
+        });
+    </script>
+</body>
+</html>
